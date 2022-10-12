@@ -1,0 +1,56 @@
+@media only screen and (max-width: 375px) {
+    #box{
+        width: 70%;
+        margin-left: 10px;
+        height: 260px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    #box h2{
+        font-size: 15px;
+        margin-left: -20px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    #box p{
+        padding: 15px;
+        font-size: 20px;
+        margin-left: -20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 375px) {
+    #box #mobileDivider{
+        margin-left: -20px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    #box #divider{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1475px) {
+    #box #mobileDivider{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .attribution h2{
+        padding: 65px;
+        font-size: 18px;
+        margin-left: -50px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    #box #dice{
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+  }

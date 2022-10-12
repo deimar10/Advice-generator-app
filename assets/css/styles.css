@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Manrope-ExtraBold;
+    src: url(/Fonts/static/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Manrope-Extralight;
+    src: url(/Fonts/static/Manrope-ExtraLight.ttf);
+}
+
+body {
+    font-family: Manrope-ExtraBold;
+    color: white;
+    background-color: hsl(218, 23%, 16%);
+}
+
+#box{
+    width: 25%;
+    margin: 0 auto;
+    display: grid;  
+    padding: 40px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+#box h2 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    font-family: Manrope-Extralight;
+    text-align: center;
+}
+
+#box p {
+    color: hsl(193, 38%, 86%);
+    font-size: 21px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+#box #dice {
+    margin: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid hsl(150, 100%, 66%);
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    margin-left: -1.5%;
+}
+
+#box #dice:hover {
+    box-shadow: 1px 1px 18px 2px #52FFB2;
+    cursor: pointer;
+}
+
+#box #divider {
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.attribution {
+    color: hsl(193, 38%, 86%);;
+    margin-top: 100px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(150, 100%, 66%);
+}
+
+.attribution h2 {
+    font-size: 21px;
+    text-align: center;
+}
